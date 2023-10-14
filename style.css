@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family:'Roboto', sans-serif;
+}
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-left: 5rem; */
+    background-color: #16165a;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+.nav-bar li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-bar li:hover{
+    background-color: #09091d;
+}
+.nav-two{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(77, 77, 138);
+    padding: 1rem;
+}
+.nav-two h5{
+    margin-left: 3rem;
+    font-size: 18px;
+    color: white;
+}
+.nav-two p{
+    margin-left: 3rem;
+    font-size: 15px;
+    color: white;
+}
+.nav-two input{
+    margin-left: 20rem;
+    background-color: skyblue;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+.icons{
+    margin-left: 27rem;
+    color: white;
+    cursor: pointer;
+}
+.nav-three{
+    height: 15vh;
+    background-color: #135f52;
+    color: white;
+}
+.nav-three h3{
+    margin-left: 5rem;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+}
+.nav-three ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: 10rem;
+    cursor: pointer;
+    /* margin-top: -1rem; */
+}
+.nav-three li{
+    list-style: none;
+}
+.nav-three h6{
+    margin-left: 70rem;
+    margin-top: -2rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+.nav-three p{
+    margin-left: 75rem;
+    margin-top: -1rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+.hero img{
+    width: 40%;
+    height: 40%;
+    margin-left: 4rem;
+}
+.hero h2{
+    margin-left: 8rem;
+    margin-top: -4rem;
+    color: #666464;
+    font-weight: 600;
+}
+.part-one img{
+    width: 17rem;
+    height: 17rem;
+    margin-left: 45rem;
+    margin-top: -30rem;
+}
+.part-one h2{
+    margin-left: 48rem;
+    font-size: 15px;
+    color: white;
+}
+.part-two img{
+    width: 17rem;
+    height: 17rem;
+    margin-left:63rem; 
+    margin-top: -30rem;
+}
+.part-two h2{
+    margin-left: 65rem;
+    font-size: 15px;
+    color: white;
+}
+/* harishmaa */
+.training {
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .training1 h3 {
+    font-size: 30px;
+  }
+  .see {
+    margin-left: 200px;
+  }
+  .search {
+    margin-left: 40px;
+  }
+  
+  .details {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(71, 71, 94);
+  }
+  .details ul {
+    list-style-type: none;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .leader {
+    margin-left: 1000px;
+    margin-top: -390px;
+  }
+  .leader a {
+    color: green;
+    text-decoration: none;
+    margin-left: 260px;
+   
+  }
+  
+  .f1,
+  .f2,
+  .f3,
+  .f4,
+  .f5 {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .f1 {
+    margin-top: 34px;
+  }
+  .employ h4 {
+    margin-left: -25px;
+  }
+  .face1,
+  .face2,
+  .face3,
+  .face4,
+  .face5 {
+    width: 25px;
+    height: 25px;
+  }
+  .leader i {
+    /* margin-left: 330px; */
+    color: gold;
+  }
+  
+  .see {
+    margin-left: 50rem;
+    color: green;
+  }
+  .search {
+    padding: 10px;
+  }
+  
+  .survey {
+    height: 700px;
+    background-color: rgb(241, 241, 254);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 100%;
+    
+  }
+  .images {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    height: 250px;
+    width: 430px;
+    
+  }
+  .survey1 {
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  .survey1 h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -90px;
+  }
+  .survey1 p {
+    margin-left: -90px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .survey1 form {
+    margin-left: -90px;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 40px;
+  }
+  .text {
+    padding: 30px;
+    padding-right: 130px;
+    margin-left: -80px;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 254);
+    border-color: rgb(197, 189, 189);
+  }
+  
+  .vote {
+    background-color: rgb(9, 169, 113);
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  .vote a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .gallery{
+    margin-left: 20px;
+  }
+  .gallery h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 2px;
+  }
+  .gallery p a {
+    color: green;
+    text-decoration: none;
+    margin-left: 840px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+
+  /* hariharan */
+
+
+  #container2 {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 320px; */
+    background-color: #09091d;
+  }
+  #container2 h2{
+    margin-left: 280px; 
+    color: white;
+    text-align: center;
+  }
+  #grid1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 320px;
+  }
+  #grid1 > div {
+    background-color: aquamarine;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+  }
+  #container3 {
+    display: flex;
+    flex-direction: row;
+  }
+  #expert {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 30px;
+    margin-left: 300px;
+  }
+  #documents {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 50px;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    margin-left: 100px;
+  }
+  #h3 {
+    left: 100px;
+    
+  }
+  #grid1 h4{
+    margin-top: 40px;
+  }
